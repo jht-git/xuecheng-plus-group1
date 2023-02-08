@@ -7,3 +7,29 @@ Content-Type: application/json
   "courseName": "",
   "publishStatus": ""
 }
+
+###
+POST http://{{content_host}}/content/course
+Content-Type: application/json
+
+{
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "fdsfdsfds",
+  "teachmode": "200002",
+  "users": "初级人员初级人员初级人员",
+  "tags": "课程标签",
+  "grade": "204001",
+  "description": "课程描述",
+  "objectives": "objectivesobjectivesobjectives",
+  "charge": "201001",
+  "price": 100,
+  "originalPrice":200,
+  "qq": "43232",
+  "wechat": "3re",
+  "phone": "3232",
+  "validDays": 365
+}
+
+
